@@ -9,7 +9,7 @@ const Contact = () => {
         background: `url(${contact})`,
       }}
     >
-      <div className="card py-10 text-center shadow-xl border border-black">
+      <div className="card py-10 text-center shadow-xl">
         
         <p className="text-xl font-bold text-secondary">Contact Us</p>
         <h2 className="text-4xl text-white">Stay connected with us</h2>

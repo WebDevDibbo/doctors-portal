@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     
       <div className="hero mb-32 ">
-        <div className="hero-content px-9 flex-col lg:flex-row-reverse border">
+        <div className="hero-content py-5 lg:py-24 flex-col lg:flex-row-reverse border">
           <img
             src={chair}
             className="w-full md:w-1/2 rounded-lg shadow-2xl"

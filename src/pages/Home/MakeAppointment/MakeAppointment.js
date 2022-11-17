@@ -4,19 +4,20 @@ import appointment from '../../../assets/images/appointment.png'
 
 const MakeAppointment = () => {
   return (
-    <section className="mt-40"
+    <section className="mt-72 mb-20"
     style={{
-        background: `url(${appointment})`
+        background: `url(${appointment})`,
+        
     }}
     >
-      <div className="hero py-10 md:py-0">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className="hero">
+        <div className="hero-content flex-col lg:flex-row p-0">
           <img
             src={doctor}
-            className="hidden md:block lg:w-1/2 -mt-32 rounded-lg shadow-2xl"
+            className="hidden md:block lg:w-1/2 -mt-32"
             alt=""
           />
-          <div className="md:py-10">
+          <div className="px-5 py-10 lg:pr-20">
             <h4 className="text-primary font-bold text-xl ">Appointment</h4>
             <h1 className="text-4xl font-semibold text-white">Make an appointment Today</h1>
             <p className="py-6 text-white">
